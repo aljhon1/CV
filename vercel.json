@@ -6,7 +6,6 @@
   },
   "routes": [
     { "src": "/", "dest": "/index.html" },
-    { "src": "/process.php", "dest": "/process.php" },
-    { "src": "/style.css", "dest": "/style.css" }
+    { "src": "/process.php", "dest": "/process.php" }
   ]
 }
