@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* FORM */
+.container {
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* CV */
+.cv {
+    display: flex;
+    width: 70%;
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0 0 10px gray;
+}
+
+/* LEFT */
+.left {
+    width: 35%;
+    background: #1e2a38;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+/* RIGHT */
+.right {
+    width: 65%;
+    padding: 20px;
+}
+
+/* SECTIONS */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2, .section h3 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
